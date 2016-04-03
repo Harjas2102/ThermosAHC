@@ -52,7 +52,7 @@ public class PSH
     public void serverLoad(final FMLServerStartingEvent event) {
         System.out.println("[PSH] Registered /xrc command!");
         event.registerServerCommand((z)new CheckRay());
-        System.out.println("[PSH] Registered /lectro ommand!");
+        System.out.println("[PSH] Registered /lectro command!");
         event.registerServerCommand((z)new Lectro());
     }
     
